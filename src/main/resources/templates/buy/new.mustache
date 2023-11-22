@@ -1,0 +1,32 @@
+{{>layouts/login-header}}
+
+<title>글쓰기|RTH</title>
+
+<link href="/css/buy/write.css" rel="stylesheet">
+
+<form action="/buy/create" method="post">
+    <div id="buyTextBox">
+        <div id="buyTitle">
+            <input type="text" placeholder="[아티스트명] 구매 원하는 제품" autofocus style="width:1000px; height:80px; font-size:30px" name="title" required>
+        </div>
+        <br>
+        <div id="buyContent">
+            <textarea style="width:1000px; height:200px; font-size:20px; resize:none" placeholder="(필수 입력란 아닙니다.)" name="content"></textarea>
+        </div>
+        <div id="buyImage">
+            <h3>제품 상세 이미지</h3>
+            <input type="file" accept="image/gif, image/jpeg, image/png" id="inputImage" name="image">
+        </div>
+        <div>
+            <image src="" id="holder" height="200px" width="auto"></image>
+        </div>
+        <div id="buyPrice">
+            <input type="number" style="width: 500px; height: 50px; font-size: 20px" placeholder="제품 가격" name="price" required><b id="priceKRW"> 원</b>
+        </div>
+        <div>
+            <input type="submit" value="등록" id="submitBtn">
+        </div>
+    </div>
+</form>
+
+<script src="/js/buy/showIMG.js"></script>

@@ -1,0 +1,25 @@
+#WritingBox {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.titleBox {
+    font-size: 50px;
+}
+
+.contentBox {
+    font-size: 30px;
+}
+
+.priceBox {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#ListBtn {
+    margin-top: 20px;
+    height: 50px;
+    width: 500px;
+    border: whitesmoke;
+    border-radius: 5px;
+}

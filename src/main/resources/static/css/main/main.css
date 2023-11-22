@@ -1,0 +1,26 @@
+.outer {
+    border: 6px solid rosybrown;
+    margin: 20px auto;
+    overflow-x: hidden;
+}
+
+.inner-list {
+    display: flex;
+    transition: .3s ease-out;
+}
+
+.inner {
+    text-align: center;
+    border: 6px solid wheat;
+    padding: 0 16px;
+}
+
+.button-list {
+    text-align: center;
+}
+
+#jobBtn {
+    text-decoration: underline;
+    font-size: 15px;
+    color: deepskyblue;
+}

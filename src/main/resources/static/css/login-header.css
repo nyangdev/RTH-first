@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HakgyoansimWoojuR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*헤더*/
+body {
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 8px 12px;
+}
+
+.navbar_logo {
+    padding-top: 10px;
+    font-family: 'TheJamsil5Bold';
+    font-size: 30px;
+    color: black;
+}
+
+.navbar_menu, .member-login {
+    font-family: 'HakgyoansimWoojuR';
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.navbar_menu li {
+    padding: 8px 12px;
+}
+
+/*헤더 반응형*/
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+    .navbar_menu {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar_menu li {
+        width: 100%;
+        text-align: center;
+    }
+}

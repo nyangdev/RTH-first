@@ -1,0 +1,38 @@
+.title {
+    margin-top: 20px;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    border: 3px solid;
+}
+
+.first {
+    width: 50%;
+    flex: 1;
+}
+
+.second {
+    width: 50%;
+    flex: 1;
+}
+
+#howContent {
+    font-size: 30px;
+    background-color: whitesmoke;
+}
+
+.child1 {
+    margin-top: 35px;
+    text-align: center;
+}
+
+#hirename {
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+#hirename {
+    font-size: 20px;
+}

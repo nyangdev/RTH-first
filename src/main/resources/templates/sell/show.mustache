@@ -1,0 +1,20 @@
+{{>layouts/header}}
+
+<link href="/css/sell/show.css" rel="stylesheet">
+
+<div id="WritingBox">
+    {{#sell}}
+        <div class="titleBox">
+            {{title}}
+        </div>
+    <br><hr><br>
+        <div class="contentBox">
+            {{content}}
+        </div>
+    <br><hr><br>
+        <div class="priceBox">
+            {{price}}원
+        </div>
+    {{/sell}}
+    <button id="ListBtn" onclick="location.href='/sell'">목록으로 돌아가기</button>
+</div>

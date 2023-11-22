@@ -1,0 +1,29 @@
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#sellTitle {
+    margin-top: 50px;
+}
+
+#sellTextBox {
+    text-align: center;
+}
+
+#sellImage, #sellPrice {
+    margin-top: 50px;
+}
+
+#submitBtn {
+    margin-top: 20px;
+    height: 50px;
+    width: 500px;
+    border: whitesmoke;
+    border-radius: 5px;
+}
+
+#priceKRW {
+    font-size: 30px;
+}

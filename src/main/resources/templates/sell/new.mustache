@@ -1,0 +1,31 @@
+{{>layouts/login-header}}
+
+<title>글쓰기|RTH</title>
+
+<link href="/css/sell/write.css" rel="stylesheet">
+<form action="/sell/create" method="post">
+    <div id="sellTextBox">
+        <div id="sellTitle">
+            <input type="text" placeholder="[아티스트명] 판매하는 제품" autofocus style="width:1000px; height:80px; font-size:30px" name="title" required>
+        </div>
+        <br>
+        <div id="sellContent">
+            <textarea style="width:1000px; height:200px; font-size:20px; resize:none" placeholder="판매 제품 상세 설명" name="content" required></textarea>
+        </div>
+        <div id="sellImage">
+            <h3>제품 상세 이미지</h3>
+            <input type="file" accept="image/gif, image/jpeg, image/png" name="image" id="inputImage"required>
+        </div>
+        <div>
+            <img src="" id="holder" height="200px" width="auto">
+        </div>
+        <div id="sellPrice">
+            <input type="number" style="width: 500px; height: 50px; font-size: 20px" placeholder="제품 가격" name="price" required><b id="priceKRW"> 원</b>
+        </div>
+        <div>
+            <input type="submit" value="등록" id="submitBtn">
+        </div>
+    </div>
+</form>
+
+<script src="/js/sell/showIMG.js"></script>

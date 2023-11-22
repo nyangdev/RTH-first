@@ -1,0 +1,2 @@
+INSERT INTO admin_buy_message(title, content) VALUES ('구매하고자 하는 상품을 구하는 게시판입니다.', '과도한 플미는 지양합시다.');
+INSERT INTO admin_sell_message(title, content) VALUES ('판매하고자 하는 상품을 게시하는 게시판입니다.', '과도한 플미는 무통보 삭제됨을 알려드립니다.');

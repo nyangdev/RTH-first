@@ -1,0 +1,25 @@
+#joinBox {
+    font-size: 30px;
+    text-align: center;
+    margin: 100px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#idBox, #pwBox1, #pwBox2, #nameBox {
+    height: 50px;
+    width: 500px;
+}
+
+#submitBox {
+    height: 50px;
+    width: 500px;
+    border: whitesmoke;
+    border-radius: 5px;
+}
+
+#agree, #disagree {
+    all: initial;
+}

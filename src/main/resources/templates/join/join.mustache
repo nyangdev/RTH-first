@@ -1,0 +1,27 @@
+{{>layouts/login-header}}
+
+<title>회원가입|RTH</title>
+
+<link href="/css/join/join.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<div id="joinBox">
+    <form action="/join/Member" method="post">
+        <h3>회원가입</h3>
+        <p>아이디</p>
+        <input type="text" placeholder="아이디 입력" id="idBox" name="username" required>
+        <p>비밀번호</p>
+        <input type="password" placeholder="비밀번호 입력" id="pwBox1" name="password" required>
+        <br>
+        <input type="password" placeholder="비밀번호 확인" id="pwBox2" required>
+        <br>
+        <div id="agree"><small>비밀번호가 일치합니다.</small></div>
+        <div id="disagree"><small>비밀번호가 일치하지않습니다.</small></div>
+        <p>닉네임</p>
+        <input type="text" placeholder="닉네임 입력" id="nameBox" name="nickname" required>
+        <br><br>
+        <input type="submit" value="완료" id="submitBox"/>
+    </form>
+</div>
+
+<script src="/js/join/join.js"></script>

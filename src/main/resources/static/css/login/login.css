@@ -1,0 +1,33 @@
+.memberLogin {
+    font-size: 30px;
+    text-align: center;
+    margin: 100px;
+}
+
+#username {
+    height: 50px;
+    width: 500px;
+}
+
+#password {
+    height: 50px;
+    width: 500px;
+}
+
+#loginSubmit {
+    background-color: wheat;
+    padding: 10px 30px;
+    border: whitesmoke;
+    border-radius: 5px;
+}
+
+#memberInGuide {
+    color: darkgray;
+    font-size: 20px;
+}
+
+#joinBtn {
+    text-decoration: underline;
+    font-size: 15px;
+    color: deepskyblue;
+}

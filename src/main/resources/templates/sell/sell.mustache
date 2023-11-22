@@ -1,0 +1,26 @@
+{{>layouts/header}}
+
+<title>판매해요|RTH</title>
+
+<link href="/css/sell/sell.css" rel="stylesheet">
+<div id="showSellBox">
+    {{#adminSellList}}
+        <table id="adminTable">
+            <tr>
+                <td id="adminTd">{{title}}</td>
+                <td id="adminTd">{{content}}</td>
+            </tr>
+        </table>
+    {{/adminSellList}}
+    {{#sellList}}
+        <table id="sellTable">
+            <tr>
+                <td id="sellTd"><a href="/sell/{{id}}">{{title}}</a></td>
+                <td id="sellTd">{{price}}원</td>
+            </tr>
+        </table>
+    {{/sellList}}
+</div>
+<div>
+    <button id="sellWrite-button" onclick="location.href='/sell/new'">글쓰기</button>
+</div>

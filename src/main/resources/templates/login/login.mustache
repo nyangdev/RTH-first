@@ -1,0 +1,21 @@
+{{>layouts/login-header}}
+
+<title>로그인|RTH</title>
+
+<link href="/css/login/login.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<div class="memberLogin">
+    <h3>로그인</h3>
+    <form action="/login/loginMember" method="post">
+        <input type="text" name="username" id="username" placeholder="아이디를 입력하세요." autofocus required/>
+        <br><br>
+        <input type="password" name="password" placeholder="비밀번호를 입력하세요." id="password" required/>
+        <br><br>
+        <input type="submit" value="로그인" id="loginSubmit"/>
+    </form>
+
+    <p id="memberInGuide">아직 RTH 계정이 없나요? <a href="/join" id="joinBtn">회원가입</a></p>
+</div>
+
+<script src="/js/login.js"></script>
